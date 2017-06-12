@@ -40,7 +40,7 @@ class BuildRedis(build):
         # build Redis
         logger.debug('Running build_redis')
 
-        os.environ['CC'] = 'gcc'
+        os.environ['CC'] = 'cc'
         os.environ['PREFIX'] = REDIS_PATH
         cmd = [
             'make',
