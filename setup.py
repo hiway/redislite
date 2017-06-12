@@ -280,7 +280,7 @@ if __name__ == '__main__':
         )
         sys.exit(1)
 
-    os.environ['CC'] = 'gcc'
+    os.environ['CC'] = 'cc'
 
     logging.basicConfig(level=logging.INFO)
 
